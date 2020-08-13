@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "This is meant to run on Amazon Linux" &&
+# This is meant to run on Amazon Linux
 sudo yum update -y &&
 sudo yum install -y docker &&
 sudo service docker start &&
